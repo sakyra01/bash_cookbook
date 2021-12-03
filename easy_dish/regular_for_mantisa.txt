@@ -1,0 +1,10 @@
+# find all numbers with .
+# bash command = egrep '[0-9]\.[0-9]' regular_for_mantisa.sh
+
+amamama
+3.14
+ioio
+234
+100000
+15/97
+24.12

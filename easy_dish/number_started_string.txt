@@ -1,0 +1,8 @@
+# find strings which started and ended by numbers
+# command = grep '^[0-9].*[0-9]$' number_started_string.txt 
+
+1 man told me that he had suit number 3
+he asked me to go out with him
+7 times i refused his offer but finally gave up
+199872 that was code of my phone number and he called me to talk about my new job by Dev-ops 3
+it was good

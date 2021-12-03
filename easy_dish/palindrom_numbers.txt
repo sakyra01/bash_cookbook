@@ -1,0 +1,11 @@
+# 1) find palindrom values
+# 2) command = egrep '([0-9])*=*\1' palindrom_numbers.txt
+
+123 is=to 123
+6=7
+998877=778899
+zooomo 1=lopi
+bur 12=bur 12
+122333=3332211
+14=14
+
