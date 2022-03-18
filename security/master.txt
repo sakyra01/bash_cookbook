@@ -1,0 +1,5 @@
+#Log Intrusion Detection
+
+1. Make ioc file iocs.txt
+Example how to cehck logs with iocs.txt
+	# tail -f /var/log/auth.log | egrep -i -f iocs.txt	

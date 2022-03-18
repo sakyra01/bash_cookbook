@@ -1,0 +1,1 @@
+grep -i -r /home -e 'password'

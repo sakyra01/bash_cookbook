@@ -1,7 +1,5 @@
 #!/bin/bash
 #
-# Bash и кибербезопасность
-# osdetect.sh
 #
 # Описание:
 # Определение типа ОС: MS-Windows/Linux/MacOS
@@ -10,7 +8,6 @@
 # вывод будет одним из таких: Linux MSWin macOS
 #
 
-function myfunc {
 
 if type -t wevtutil &> /dev/null
 then
@@ -23,6 +20,3 @@ else
 fi
 echo $OS
 
-}
-
-myfunc

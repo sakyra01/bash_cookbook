@@ -1,0 +1,14 @@
+1. Read certain lines which contains name "Jones" by awk 
+	# awk '$2 == "Jones" {print $0}' <text file>
+2. Join 2 files by command join
+	# join -1 3 -2 1 -t, <file 2> <file 1>
+3. Replace all ip-addresses 10.0.4.35 by 10.0.4.27 using sed command
+	# sed 's/10\.0\.4\.35/10.0.4.27/g' <text file>
+4. Get only name from file by cut command using interruption field ',' and number of line
+	# cut -d',' -f1 <text file>
+4.1 + Delete "" for more successfull reading 
+	# cut -d',' -f1 <text file> | tr -d '"'
+5. Check each username hash password which contains in file example_4 with passwords file passwords.txt.
+	# grep "$(awk -F "," '(print $4)' <file 1>)" <file 2> // get password hash from example_4 and use grep to find same data    
+6. Get phone numbers from file example_4
+	# cut -d ',' -f3 example_4 | cut -c2-13 | tail -n +2  // -c symbol position, tail delete header
